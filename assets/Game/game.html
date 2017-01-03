@@ -1,9 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+<script src="processing.js"></script>
+<link rel="stylesheet" href="style.css"/>  </head>
+<body>
+<p>by RohitSamineni.</p>
+
+
+<script type="application/processing">
 
 
 int k=0;
 
-int posx = 5;
-int posy = 10;
+int posx = 5;int posy = 10;
+
 int speedx=1;
 int speedy=2;
 int paddlesy;
@@ -25,8 +36,6 @@ void setup()
 {
 
  size(400,400);
- fill(0);
- ellipse(40,50,20,20);
 }
 
 void draw()
@@ -42,16 +51,48 @@ void draw()
 
   paddlesx=mouseX;//paddlex+speedpx;
   paddlesy=400;
- 
- 
-  
+  paddlenx=(mouseX)+10;
+  paddlewx=0;
+  paddlewy=mouseY;
   posx=posx+speedx;
   posy=posy+speedy;
- bounce();
+  if (posx==width)
+  {
+    speedx=-speedx;
+  }
+  if (posx<0)
+  {
+    speedx=-speedx;
+  }
+  if (posx>width)
+  {
+    speedx=-speedx;
+  }
+
+
+
+
+
+
+  if (posy<0)
+  {
+    speedy=-speedy;
+  }
+
+  if (paddlesx+100>width) {
+    paddlesx=width-100;
+  }
+  if (paddlesx<0) {
+    paddlesx=0;
+  }
+
+  if (paddlesy+50>height) {
+    paddlesy=height-30;
+  }
 
   bounces();
   bouncen();
-  
+  bouncew();
   highscore();
   north();
   
@@ -61,8 +102,16 @@ void north() {
   fill(0);
   rect(paddlenx,paddleny, 100, 30);
 }
-
-
+void west() {
+  fill(0);
+  rect(paddlewx, paddlewy, 30, 100);
+}
+void east() {
+  fill(0); 
+  {
+    rect(paddleex, paddleey, 0, 0);
+  }
+}
 
 
 
@@ -82,7 +131,7 @@ void highscore() {
     highest=score1;
   }
 }
-void mouseClicked() {
+void mousePressed() {
 
   loop();
   score=0;
@@ -116,7 +165,14 @@ void gameover() {
   }
   if (posx<0) {
 
-    speedy=-speedy;
+    background(0);
+    text("GAMEOVER", 120, 150);
+    fill(0, 102, 153);
+    text("Your Score is", 125, 170);
+    text(score, 220, 170);
+    text("click to start again", 20, 250);
+    score1=score;
+    noLoop();
   }
   if (posy<0) {
 
@@ -139,41 +195,23 @@ void bouncen() {
       score++;
     }
   }
+}
+void bouncew(){
   
-}
-
- void mousePressed() {
-
-  paddlenx=mouseX;
-}
-void bounce(){
-   if (posx==width)
-  {
-    speedx=-speedx;
-  }
-  else if (posx<0)
-  {
-    speedx=-speedx;
-  }
-  else if (posx>width)
-  {
-    speedx=-speedx;
-  }
-
-  else if (posy<0)
-  {
-    speedy=-speedy;
-  }
-
-  else if (paddlesx+100>width) {
-    paddlesx=width-100;
-  }
-  else if (paddlesx<0) {
-    paddlesx=0;
-  }
-
-  else if (paddlesy+50>height) {
-    paddlesy=height-30;
+  if (posx==paddlewx+30) {
+    if (posy<paddlewy+100&&posy>paddlewy)
+    {
+      speedx=-speedx;
+      score++;
+    }
   }
   
+
 }
+
+</script><canvas width="200" height="200"></canvas></p>
+<div style="height:0px;width:0px;overflow:hidden;"></div>
+	
+  </body>
+  </html>
+123732990  

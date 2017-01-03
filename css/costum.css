@@ -1,0 +1,60 @@
+.row{
+	
+	position:relative;
+	top:-10px;
+	
+}
+#game{
+	position:relative;
+	top:100px;
+		
+}
+
+	
+}
+.col-sm-12{
+		position:relative;
+	top:22px;
+		
+	
+}
+#canva{
+	
+		position:relative;
+	top:-100px;
+	left:800px;
+		height:200px;
+width:250px;	
+	
+}	
+.color{
+	
+	position:absolute;
+	top:70px;
+	left:100px;
+	
+	
+}
+.game{
+	position:absolute;
+	top:70px;
+	left:400px;
+	width:550px;
+}
+.rasp{
+	
+	position:absolute;
+	top:350px;
+	left:30px;
+	width:350px;
+	
+	
+}
+.chrom_ext{
+	position:absolute;
+	top:90px;
+	left:1000px;
+	width:350px;
+	
+	
+}

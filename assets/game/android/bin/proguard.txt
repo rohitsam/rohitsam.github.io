@@ -1,6 +1,0 @@
-# view res/layout/main.xml #generated:1
--keep class .Game { <init>(...); }
-
-# view AndroidManifest.xml #generated:1
--keep class processing.test.game.MainActivity { <init>(...); }
-
