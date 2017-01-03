@@ -1,0 +1,39 @@
+<style text/css>
+
+
+        body{background-image: url(wall.jpeg);
+}
+          padding: 50px; 
+        overflow-y: scroll;}
+        canvas{
+          position: fixed;float: left;
+
+        }
+        
+     h1{text-align: center;
+      border-bottom: 1px;
+      }
+        footer{text-align: center; position:fixed;bottom:0;hei0ght:100px;color:#f6f6f6;}
+        #home{position:fixed;background:yellow; border:2px solid black; position:fixed;bottom:50px;right:0;}
+       li{
+        list-style-type: none;
+        border: 1px solid red;
+        border-spacing: 3px;
+        
+       }
+       li{
+            position: relative;
+           
+            text-align: center; 
+            float: left;
+            margin: right:4px;
+            display: block;
+            width: 200px;
+            height: 40px;
+            background-color: #FFF;
+            border-radius: 5px;
+
+       
+
+       }
+        </style>

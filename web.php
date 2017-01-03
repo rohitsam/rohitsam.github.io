@@ -1,4 +1,19 @@
-
+Skip to content
+This repository  
+Search
+Pull requests
+Issues
+Gist
+ @rohitsam
+ Watch 31
+  Star 340
+  Fork 320 IronSummitMedia/startbootstrap-clean-blog
+ Code  Issues 6  Pull requests 3  Wiki  Pulse  Graphs
+Branch: gh-pages Find file Copy pathstartbootstrap-clean-blog/about.html
+4fce1b8  on Oct 31, 2014
+@davidtmiller davidtmiller Bootstrap 3.3.0 Update
+1 contributor
+RawBlameHistory     150 lines (129 sloc)  6.18 KB
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +25,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>@About</title>
+    <title>Clean Blog - About</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -29,25 +44,6 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <style>
-   .page-heading{
-
-position: relative;
-top: 0px;
-
-}
-.container{
-position: relative;
-top: 80px;
-
-
-}
-a.sub{
-left:100px;
-
-}
-    </style>
- 
 
 </head>
 
@@ -64,20 +60,7 @@ left:100px;
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" onclick="myFunction()">@RohitSam</a>
-                  
-                <script>
-function myFunction() {
-    var k;k=2;
-    if((k%2)==0){
-    window.open("game.html", "_blank", "toolbar=yes, scrollbars=yes, resizable=no, top=500, left=900, width=410, height=410");
-}
-else{
-
-     myWindow.close();
-}    
-}
-</script>
+                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -109,9 +92,9 @@ else{
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="page-heading">
-                        <h1>This is what I do.</h1>
+                        <h1>About Me</h1>
                         <hr class="small">
-                        
+                        <span class="subheading">This is what I do.</span>
                     </div>
                 </div>
             </div>
@@ -122,10 +105,9 @@ else{
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <p>Iam Rohit Studying Btech 2nd Year and my stream is electronics and communication </p>
-                <p>Iam intrestd in fields of embedded systems, web development,android development. </p>
-                <p>I have made few projects using Aurduino UNO, I even worked well with </p><a href="http://processingjs.org">Processing js</a>. 
-                presently iam working on a android app and an aurduino project.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestiae debitis nobis, quod sapiente qui voluptatum, placeat magni repudiandae accusantium fugit quas labore non rerum possimus, corrupti enim modi! Et.</p>
             </div>
         </div>
     </div>
@@ -139,7 +121,7 @@ else{
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <ul class="list-inline text-center">
                         <li>
-                            <a href="sorry.html">
+                            <a href="#">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -147,7 +129,7 @@ else{
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/rohith.samineni">
+                            <a href="#">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -155,7 +137,7 @@ else{
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.github.com/rohitsam">
+                            <a href="#">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -163,7 +145,7 @@ else{
                             </a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted">Copyright &copy; RohitSam</p>
+                    <p class="copyright text-muted">Copyright &copy; Your Website 2014</p>
                 </div>
             </div>
         </div>
@@ -181,3 +163,5 @@ else{
 </body>
 
 </html>
+Status API Training Shop Blog About Pricing
+© 2016 GitHub, Inc. Terms Privacy Security Contact Help
