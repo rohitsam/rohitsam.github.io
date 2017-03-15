@@ -1,0 +1,52 @@
+   body{
+	   
+	   overflow:hidden;
+	   
+   }
+   .page-heading{
+
+position: relative;
+top: 0px;
+
+}
+.panstart{
+position: relative;
+top: 80px;
+width:-400px;
+
+
+}
+.panstart2{
+position:relative;
+top: 80px;
+left:150px
+width:-400px;
+}
+a.sub{
+left:100px;
+
+}
+.col_panel{
+position:relative;
+
+height:200px;
+width:250px
+}
+.color{
+position:relative;
+left:200px;
+
+}
+.game{
+position:relative;
+TOP:0px;
+left:650px;
+
+
+}
+#game_p{
+	
+	height:460px;
+width:430px;
+	
+}
